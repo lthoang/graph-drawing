@@ -1,0 +1,27 @@
+{
+  "A1": {
+    "name": "Node A1",
+    "dependency": [
+    ]
+  },
+  "A2": {
+    "name": "Node A2",
+    "dependency": [
+	  "A1"
+    ]
+  },
+  "A3": {
+    "name": "Node A3",
+    "dependency": [
+	  "A2",
+	  "A1"
+    ]
+  },
+  "A4": {
+    "name": "Node A3",
+    "dependency": [
+	  "A3",
+	  "A1"
+    ]
+  }
+}
